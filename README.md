@@ -50,8 +50,8 @@ If you would like to make a character vendor, you can copy over the blueprint no
 
 ### How To Customize Widgets
 
-For the inventory, the main widget is the '**WGB Inventory**'. You should not customize anything here, but rather if you want to change how the inventory looks, change the slot image of the 'WGB Inventory Slot' and how the 'WGB Splitting Slider' looks like. The part that goes on the HUD (WGB Player Inventory) should be customized to your liking. The equipment screen is optional, however be aware that if you want to add more equipment slots to it, you will need to modify the 'Initialize Equipment Slots' function in the Player Inventory widget to accomodate the new slot or it won't be included.
+For the inventory, the main widget is the '**WGB Inventory**'. You should not customize anything here, but rather if you want to change how the inventory looks, change the slot image of the '**WGB Inventory Slot**' and how the '**WGB Splitting Slider**' looks like. The part that goes on the HUD (WGB Player Inventory) should be customized to your liking. The equipment screen is optional, however be aware that if you want to add more equipment slots to it, you will need to modify the '**Initialize Equipment Slots**' function in the Player Inventory widget to accomodate the new slot or it won't be included.
 
-For crafting, the main widget is the 'WGB Crafting Screen'. You can modify this widget to style it in whatever way you want and you can also edit individual parts of it in their respective widgets (recipes, filters etc..). Shops are very simple to edit, you just need to change the look of the '**WGB Fished Item**' and the '**WGB Shop**'.
+For crafting, the main widget is the '**WGB Crafting Screen**'. You can modify this widget to style it in whatever way you want and you can also edit individual parts of it in their respective widgets (recipes, filters etc..). Shops are very simple to edit, you just need to change the look of the '**WGB Fished Item**' and the '**WGB Shop**'.
 
 - Widgets use custom made C++ delegates to update their information accordingly, you can track what each delegate does in the widget blueprints
