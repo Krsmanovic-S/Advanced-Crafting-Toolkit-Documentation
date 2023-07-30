@@ -36,6 +36,8 @@ Shop Actors do not have any components related to them. The way you edit what is
 
 - Shops use the '**Item Value**' part in the '**ItemDataTable**' to determine how much to sell for and what to give the Player upon selling (sell value is set to 1/2 of the total price by default)
 
+If you would like to make a character vendor, you can copy over the blueprint node logic in the'**BP Shop Actor**'. Shops do not use C++ logic, the only relevant thing for them is an array of Item Structs that sybolizes their sellable items.
+
 ### How To Customize Widgets
 
 For the inventory, the main widget is the '**WGB Inventory**'. You should not customize anything here, but rather if you want to change how the inventory looks, change the slot image of the 'WGB Inventory Slot' and how the 'WGB Splitting Slider' looks like. The part that goes on the HUD (WGB Player Inventory) should be customized to your liking. The equipment screen is optional, however be aware that if you want to add more equipment slots to it, you will need to modify the 'Initialize Equipment Slots' function in the Player Inventory widget to accomodate the new slot or it won't be included.
