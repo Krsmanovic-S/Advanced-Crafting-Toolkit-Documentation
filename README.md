@@ -4,6 +4,16 @@ Welcome to the ACT Plugin! Here we will go over some basic stuff about the plugi
 
 Now let's go over how to do certain things in the plugin:
 
+### How to Install the Plugin
+
+When you purchase the plugin, you can install it for an engine version inside the Epic Games Launcher.
+
+Once doing that, the plugin will appear in the following path on your PC: WhereYouInstalledUnreal/UE Version/Plugins/AdvancedCraftingToolkit.
+
+Once you find the plugin, you should make a folder called 'Plugins' in your project directory.
+
+Paste my plugin into that folder and run your project. I suggest doing it like thus rather than just installing in engine as if you want to modify something in the code you can without worrying that something gets messed up. You will always have a backup of the original files with easy access to them!
+
 ### How To Add More Items
 
 First thing we should do is open the '**ItemDataTable**' asset. When the table opens, adding items is as simple as adding a new row to the data table. Once you press 'Add', click on the newly added row and fill out whatever information you want your item to have. Save the updated table and you are done!
