@@ -1,3 +1,18 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [How to Install the Plugin](#how-to-install-the-plugin)
+- [Implementing Input & Integrating Your Character](#implementing-input--integrating-your-character)
+- [Plugin How-To's](#plugin-how-tos)
+  - [How To Add More Items](#how-to-add-more-items)
+  - [How To Customize the Inventory](#how-to-customize-the-inventory)
+  - [How To Customize the Crafting Component](#how-to-customize-the-crafting-component)
+  - [How To Customize Shops](#how-to-customize-shops)
+    - [How To Customize Widgets](#how-to-customize-widgets)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Welcome to the ACT Plugin! Here we will go over some basic stuff about the plugin and I'll make a couple of sections about how to do certain stuff and how you can expand upon these systems. Without further ado, let's first take a look at what classes interact with which and what is the general pipeline of the plugin:
 
 ![Crafting System Documentation](https://github.com/Krsmanovic-S/Advanced-Crafting-Toolkit-Documentation/assets/103185975/ce59771e-c320-46b7-b094-a771ae8e7725)
