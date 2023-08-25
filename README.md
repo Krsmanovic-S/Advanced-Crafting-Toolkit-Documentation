@@ -31,6 +31,8 @@ Once you find the plugin, you should make a folder called 'Plugins' in your proj
 
 Paste my plugin into that folder and run your project. I suggest doing it like thus rather than just installing in engine as if you want to modify something in the code you can without worrying that something gets messed up. You will always have a backup of the original files with easy access to them!
 
+___
+
 # Implementing Input & Integrating Your Character
 
 As far as the inputs go, you can copy over the inputs from the character I provided directly into your own:
@@ -48,6 +50,8 @@ Last thing is to add the widgets located in **WGB_HUD** to your own HUD if you h
 - This method is only required if you want to drop items by dragging them to an empty space in the HUD, if you don't want this feel free to skip that part
 
 With that out of the way, the only remaining thing is to add an **Inventory** component and a **Crafting** component to your character and we are done 😄
+
+___
 
 # Plugin How-To's
 
