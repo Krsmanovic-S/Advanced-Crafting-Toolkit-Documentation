@@ -15,7 +15,8 @@ ___
   - [How To Customize the Inventory](#how-to-customize-the-inventory)
   - [How To Customize the Crafting Component](#how-to-customize-the-crafting-component)
   - [How To Customize Shops](#how-to-customize-shops)
-    - [How To Customize Widgets](#how-to-customize-widgets)
+  - [How To Customize Widgets](#how-to-customize-widgets)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ___
