@@ -1,6 +1,12 @@
+Welcome to the ACT Plugin! Here we will go over some basic stuff about the plugin and I'll make a couple of sections about how to do certain stuff and how you can expand upon these systems. Without further ado, let's first take a look at what classes interact with which and what is the general pipeline of the plugin:
+
+![Crafting System Documentation](https://github.com/Krsmanovic-S/Advanced-Crafting-Toolkit-Documentation/assets/103185975/ce59771e-c320-46b7-b094-a771ae8e7725)
+
+___
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents**
 
 - [How to Install the Plugin](#how-to-install-the-plugin)
 - [Implementing Input & Integrating Your Character](#implementing-input--integrating-your-character)
@@ -10,12 +16,9 @@
   - [How To Customize the Crafting Component](#how-to-customize-the-crafting-component)
   - [How To Customize Shops](#how-to-customize-shops)
     - [How To Customize Widgets](#how-to-customize-widgets)
-
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Welcome to the ACT Plugin! Here we will go over some basic stuff about the plugin and I'll make a couple of sections about how to do certain stuff and how you can expand upon these systems. Without further ado, let's first take a look at what classes interact with which and what is the general pipeline of the plugin:
-
-![Crafting System Documentation](https://github.com/Krsmanovic-S/Advanced-Crafting-Toolkit-Documentation/assets/103185975/ce59771e-c320-46b7-b094-a771ae8e7725)
+___
 
 # How to Install the Plugin
 
@@ -83,7 +86,7 @@ Shop Actors do not have any components related to them. The way you edit what is
 
 If you would like to make a character vendor, you can copy over the blueprint node logic in the'**BP Shop Actor**'. Shops do not use C++ logic, the only relevant thing for them is an array of Item Structs that sybolizes their sellable items.
 
-### How To Customize Widgets
+## How To Customize Widgets
 
 For the inventory, the main widget is the '**WGB Inventory**'. You should not customize anything here, but rather if you want to change how the inventory looks, change the slot image of the '**WGB Inventory Slot**' and how the '**WGB Splitting Slider**' looks like. The part that goes on the HUD (WGB Player Inventory) should be customized to your liking. The equipment screen is optional, however be aware that if you want to add more equipment slots to it, you will need to modify the '**Initialize Equipment Slots**' function in the Player Inventory widget to accomodate the new slot or it won't be included.
 
