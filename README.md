@@ -9,9 +9,10 @@ ___
 **Table of Contents**
 
 - [How to Install the Plugin](#how-to-install-the-plugin)
-- [Implementing Input & Integrating Your Character](#implementing-input--integrating-your-character)
+- [First Steps](#first-steps)
+- [Implementing Input & Integrating the Widgets](#implementing-input--integrating-the-widgets)
 - [Plugin How-To's](#plugin-how-tos)
-  - [How To Add More Items](#how-to-add-new-items)
+  - [How To Add New Items](#how-to-add-new-items)
   - [How To Customize the Inventory](#how-to-customize-the-inventory)
   - [How To Customize the Crafting Component](#how-to-customize-the-crafting-component)
   - [How To Customize Shops](#how-to-customize-shops)
