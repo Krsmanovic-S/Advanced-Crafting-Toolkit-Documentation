@@ -11,7 +11,7 @@ ___
 - [How to Install the Plugin](#how-to-install-the-plugin)
 - [Implementing Input & Integrating Your Character](#implementing-input--integrating-your-character)
 - [Plugin How-To's](#plugin-how-tos)
-  - [How To Add More Items](#how-to-add-more-items)
+  - [How To Add More Items](#how-to-add-new-items)
   - [How To Customize the Inventory](#how-to-customize-the-inventory)
   - [How To Customize the Crafting Component](#how-to-customize-the-crafting-component)
   - [How To Customize Shops](#how-to-customize-shops)
@@ -33,33 +33,43 @@ Paste my plugin into that folder and run your project. I suggest doing it like t
 
 ___
 
-# Implementing Input & Integrating Your Character
+# First Steps
+
+Let's start off by adding the **Inventory Component** and the **Crafting Component** to your Player Actor or any other one that wishes to utilize these components:
+
+![ACT_Components](https://github.com/Krsmanovic-S/Advanced-Crafting-Toolkit-Documentation/assets/103185975/77689453-ebb4-468b-837f-801895ac1b06)
+
+After we successfully added these components, it is time to customize them to your liking. We go over the customization in the *'How To'* section below.
+
+# Implementing Input & Integrating the Widgets
 
 As far as the inputs go, you can copy over the inputs from the character I provided directly into your own:
 
 ![Input](https://github.com/Krsmanovic-S/Advanced-Crafting-Toolkit-Documentation/assets/103185975/dc74ead0-95fb-41bd-b2c8-992d0b23d06f)
 
-After doing that, you should change the type of variable used in the following function inside the **WGB_Inventory** blueprint:
+After that add the widgets located in **WGB_HUD** to your own HUD if you have it and copy over the **On Drop** method into your HUD.
 
-![Capture](https://github.com/Krsmanovic-S/Advanced-Crafting-Toolkit-Documentation/assets/103185975/0577ecae-ed45-4277-807a-84a5ea4a2521)
-
-This connects your character to the **BP_ItemUseDefinitions** and allows you to create the 'Use' methods for your items.
-
-Last thing is to add the widgets located in **WGB_HUD** to your own HUD if you have it and copy over the **On Drop** method into your HUD.
+![image](https://github.com/Krsmanovic-S/Advanced-Crafting-Toolkit-Documentation/assets/103185975/428afcea-0021-4ddb-bf11-0cd9107095fe)
 
 - This method is only required if you want to drop items by dragging them to an empty space in the HUD, if you don't want this feel free to skip that part
 
-With that out of the way, the only remaining thing is to add an **Inventory** component and a **Crafting** component to your character and we are done 😄
+I'd also suggest creating a variable for your **Player Character/Pawn** inside the **BP_ItemUseDefinitions** as this gives you easy access to modify his stats/other things
+
+This concludes the first part of the integration, now we move on to some customization and you are good to go 😄
 
 ___
 
 # Plugin How-To's
 
-In this section I will clarify a bit on how to use the plugin and what can you customize :smiley:
+In this section I will clarify a bit on how to use the plugin and what can you customize. Without further ado, let's begin:
 
-## How To Add More Items
+## How To Add New Items
 
-First thing we should do is open the '**ItemDataTable**' asset. When the table opens, adding items is as simple as adding a new row to the data table. Once you press 'Add', click on the newly added row and fill out whatever information you want your item to have. Save the updated table and you are done!
+Adding Items is as easy as adding a new row in the **Item Data Table**:
+
+![ACT_Item](https://github.com/Krsmanovic-S/Advanced-Crafting-Toolkit-Documentation/assets/103185975/83b464d4-f8fc-465c-a2d4-b14ce3131739)
+
+After adding a new row, just fill out the information below and you are good to go.
 
 ## How To Customize the Inventory
 
