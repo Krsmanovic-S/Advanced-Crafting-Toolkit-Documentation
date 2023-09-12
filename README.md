@@ -34,7 +34,7 @@ Paste my plugin into that folder and run your project. I suggest doing it like t
 
 ___
 
-# First Steps
+## First Steps
 
 Let's start off by adding the **Inventory Component** and the **Crafting Component** to your Player Actor or any other one that wishes to utilize these components:
 
@@ -42,7 +42,7 @@ Let's start off by adding the **Inventory Component** and the **Crafting Compone
 
 After we successfully added these components, it is time to customize them to your liking. We go over the customization in the *'How To'* section below.
 
-# Implementing Input & Integrating the Widgets
+## Implementing Input & Integrating the Widgets
 
 As far as the inputs go, you can copy over the inputs from the character I provided directly into your own:
 
