@@ -1,4 +1,5 @@
-Welcome to the **ACT Plugin!** Here we will go over some basic stuff about the plugin and I'll make a couple of sections about how to do certain stuff and how you can expand upon these systems. If you ever get stuck with something you can always hit me up on my Discord () and I'll be glad to help!
+Welcome to the **ACT Plugin!** Here we will go over some basic stuff about the plugin and I'll make a couple of sections about how to do certain stuff and how you can expand upon these systems. 
+If you ever get stuck with something you can always hit me up on my Discord (https://discord.gg/yrFwH5rMrN) and I'll be glad to help!
 
 Without further ado, let us begin:
 ___
@@ -39,7 +40,7 @@ Let's start off by adding the **Inventory Component** and the **Crafting Compone
 
 ![ACT_Components](https://github.com/Krsmanovic-S/Advanced-Crafting-Toolkit-Documentation/assets/103185975/77689453-ebb4-468b-837f-801895ac1b06)
 
-Crafting Stations need to know what class of actor they will be interacting with so make sure you set it in the Details panel inside BP Crafting Station:
+Crafting Stations need to know what class of actor they will be interacting with so make sure you set it to *your Player pawns' class* in the Details panel inside BP Crafting Station:
 
 ![Set Player Class for Station](https://github.com/Krsmanovic-S/Advanced-Crafting-Toolkit-Documentation/assets/103185975/0dab6eb8-cdc6-42c1-9a7c-fe306fe669fe)
 
@@ -128,3 +129,5 @@ Using items is done through a UObject based class called **ItemUseDefinitions**.
 ![Blueprint Using Items](https://github.com/Krsmanovic-S/Advanced-Crafting-Toolkit-Documentation/assets/103185975/e24d23d8-1602-43b4-8dad-8d7b7a95efef)
 
 For C++, simply add your functions in the **UItemUseDefinitions::MasterFunction()**. When used, items will lower their stack by the **UseDecrementStackAmount** variable that they posses, this is edited in the data table.
+
+___
