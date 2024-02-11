@@ -17,6 +17,7 @@ ___
   - [How To Customize the Crafting Component](#how-to-customize-the-crafting-component)
   - [How To Customize Shops](#how-to-customize-shops)
   - [How To Customize Widgets](#how-to-customize-widgets)
+  - [How to Implement Use-Functionality](#how-to-implement-use-functionality)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
